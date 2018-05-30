@@ -8,7 +8,7 @@ ip-from-header: "_env:IP_FROM_HEADER:false"
 
 # Default behavior: determine the application root from the request headers.
 # Uncomment to set an explicit approot
-#approot:        "_env:APPROOT:http://localhost:3000"
+approot:        "_env:APPROOT:https://arcane-basin-84943.herokuapp.com"
 
 # By default, `yesod devel` runs in development, and built executables use
 # production settings (see below). To override this, use the following:
@@ -29,12 +29,12 @@ ip-from-header: "_env:IP_FROM_HEADER:false"
 # See https://github.com/yesodweb/yesod/wiki/Configuration#parsing-numeric-values-as-strings
 
 database:
-  user:     "_env:PGUSER:blog"
-  password: "_env:PGPASS:blog"
-  host:     "_env:PGHOST:localhost"
+  user:     "_env:PGUSER:wffgxasbdxyjyh"
+  password: "_env:PGPASS:2ffa8e374ec046a36004437c284214b8e4d1b4f50361477476f4cbfa5aa860de"
+  host:     "_env:PGHOST:ec2-23-23-130-158.compute-1.amazonaws.com"
   port:     "_env:PGPORT:5432"
   # See config/test-settings.yml for an override during tests
-  database: "_env:PGDATABASE:blog"
+  database: "_env:PGDATABASE:dbfij7p476g9p1"
   poolsize: "_env:PGPOOLSIZE:10"
 
 copyright: Insert copyright statement here
